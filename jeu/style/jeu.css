@@ -1,0 +1,17 @@
+.box{
+    background-color: rgb(91, 140, 212);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 210px;
+    left: 210px;
+    cursor: pointer;
+}
+#best-score-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+  }
